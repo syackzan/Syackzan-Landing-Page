@@ -10,9 +10,8 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    background-image: linear-gradient(to bottom right, purple, white);
+    background-image: linear-gradient(to bottom right, lightblue, white);
     height: 50px;
-    color: white;
 }
 
 h1 {
@@ -41,7 +40,7 @@ header ul li {
 }
 
 h2 {
-    width: 1015px;
+    width: 1180px;
 }
 
 article {
@@ -70,7 +69,7 @@ article {
 }
 
 section {
-    margin-right: 66px;
+    margin-right: 50px;
     margin-left: 50px;
 }
 
@@ -86,10 +85,46 @@ section {
     justify-content: center;
     padding: 0 20px;
     background-image: linear-gradient(to bottom right, lightblue, white);
+    margin-left: 0;
 }
 
 main {
+   margin: 25px 50px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.linkbox {
     display: flex;
-    flex-wrap: wrap;
+    height: 400px;
+    width: 200px;
+    margin: 20px;
+    flex: 3 0 400px;
+}
+
+.fit {
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    height: 50px;
+    background-image: linear-gradient(to bottom right, lightblue, white);
+    display: flex;
     justify-content: center;
+    align-content: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 35px;
 }
