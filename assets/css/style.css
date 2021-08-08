@@ -4,27 +4,29 @@
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: rgb(231, 225, 225);
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    background-color:teal;
+    background-image: linear-gradient(to bottom right, purple, white);
     height: 50px;
+    color: white;
 }
 
 h1 {
     display: flex;
     margin-left: 35px;
     align-items: center;
-    font-size: 25px;
+    font-size: 40px;
     letter-spacing: 3px;
 }
 
 nav {
     display: flex;
     align-items: center;
+    color: black;
 }
 
 header ul {
@@ -38,11 +40,15 @@ header ul li {
     align-content: center;
 }
 
+h2 {
+    width: 1015px;
+}
+
 article {
     display: flex;
-    background-color: orange;
     margin: 0 50px;
-    height: 473px;
+    margin-top: 5px;
+    height: 500px;
 }
 
 .info-header {
@@ -50,12 +56,14 @@ article {
     border-bottom-style: solid;
     border-color: black;
     margin-top: 50px;
+    font-size: 30px;
+    letter-spacing: 3px;
 }
 
 #image-container {
     display: flex;
     justify-self: flex-end;
-    height: auto;
+    height: 100%;
     width: auto;
     margin-left: 5px;
     margin-top: -5rem;
@@ -67,11 +75,17 @@ section {
 }
 
 .mainborder {
-    border-width: 2px;
-    border: solid;
-    border-color: black;
-    border-radius: 2px;
+    border:  2px solid black;
+    border-radius: 25px;
     box-shadow: 10px 10px 5px grey;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    background-image: linear-gradient(to bottom right, lightblue, white);
 }
 
 main {
