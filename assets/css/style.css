@@ -40,14 +40,30 @@ header ul li {
 
 article {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     background-color: orange;
-    flex-direction: column;
-    margin: 0px 25px;
+    margin-right: 400px;
+    margin-left: 50px;
+    height: 473px;
+}
+
+article > * {
+    
 }
 
 .info-header {
     border-bottom-width: 2px;
     border-bottom-style: solid;
     border-color: black;
+}
+
+#photo-right {
+    display: flex;
+    justify-self: flex-end;
+    margin-left: 5px;
+}
+
+main {
+    margin-right: 66px;
+    margin-left: 50px;
 }
