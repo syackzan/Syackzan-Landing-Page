@@ -11,7 +11,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color:teal;
-    height: 75px;
+    height: 50px;
 }
 
 h1 {
@@ -22,7 +22,7 @@ h1 {
     letter-spacing: 3px;
 }
 
-.align-items-center {
+nav {
     display: flex;
     align-items: center;
 }
@@ -36,4 +36,18 @@ header ul li {
     display: inline-block;
     margin: 0 35px;
     align-content: center;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: orange;
+    flex-direction: column;
+    margin: 0px 25px;
+}
+
+.info-header {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-color: black;
 }
