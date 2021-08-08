@@ -97,9 +97,16 @@ main {
 .linkbox {
     display: flex;
     height: 400px;
-    width: 200px;
     margin: 20px;
     flex: 3 0 400px;
+    background-image: linear-gradient(to bottom right, lightblue, white);
+    border-radius: 25px;
+}
+
+.miniborder {
+    border:  2px solid black;
+    border-radius: 25px;
+    box-shadow: inset 10px 10px 5px grey;
 }
 
 .fit {
@@ -127,4 +134,21 @@ footer ul {
 footer ul li {
     display: inline-block;
     margin: 0 35px;
+}  
+
+/* Websites */
+
+#chelseafansite {
+    background-image: url(https://syackzan.github.io/MP---Landing-Page-/);
+}
+
+.sizingchel {
+    width: 100px;
+}
+
+/* Psuedo Classes */
+
+img:hover {
+    background-color: red;
+    opacity: .5;
 }
