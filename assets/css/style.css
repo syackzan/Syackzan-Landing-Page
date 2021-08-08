@@ -40,30 +40,42 @@ header ul li {
 
 article {
     display: flex;
-    flex-flow: column wrap;
     background-color: orange;
-    margin-right: 400px;
-    margin-left: 50px;
+    margin: 0 50px;
     height: 473px;
-}
-
-article > * {
-    
 }
 
 .info-header {
     border-bottom-width: 2px;
     border-bottom-style: solid;
     border-color: black;
+    margin-top: 50px;
 }
 
-#photo-right {
+#image-container {
     display: flex;
     justify-self: flex-end;
+    height: auto;
+    width: auto;
     margin-left: 5px;
+    margin-top: -5rem;
+}
+
+section {
+    margin-right: 66px;
+    margin-left: 50px;
+}
+
+.mainborder {
+    border-width: 2px;
+    border: solid;
+    border-color: black;
+    border-radius: 2px;
+    box-shadow: 10px 10px 5px grey;
 }
 
 main {
-    margin-right: 66px;
-    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
