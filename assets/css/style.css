@@ -4,6 +4,36 @@
 }
 
 body {
+    background-color: whitesmoke;
+}
+
+header {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    background-color:teal;
+    height: 75px;
+}
+
+h1 {
+    display: flex;
+    margin-left: 35px;
+    align-items: center;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.align-items-center {
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    list-style-type: none;
+    margin-right: 0px;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 35px;
+    align-content: center;
 }
