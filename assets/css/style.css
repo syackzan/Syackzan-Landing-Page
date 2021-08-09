@@ -12,6 +12,7 @@ header {
     justify-content: space-between;
     background-image: linear-gradient(to bottom right, lightblue, white);
     height: 50px;
+    border-bottom: 2px solid white;
 }
 
 h1 {
@@ -39,9 +40,7 @@ header ul li {
     align-content: center;
 }
 
-h2 {
-    width: 1180px;
-}
+
 
 article {
     display: flex;
@@ -51,10 +50,12 @@ article {
 }
 
 .info-header {
+    display: flex;
+    justify-content: space-between;
     border-bottom-width: 2px;
     border-bottom-style: solid;
     border-color: black;
-    margin-top: 50px;
+    margin-top: 35px;
     font-size: 30px;
     letter-spacing: 3px;
 }
@@ -65,7 +66,11 @@ article {
     height: 100%;
     width: auto;
     margin-left: 5px;
-    margin-top: -5rem;
+    margin-top: 20px;
+}
+
+#margin {
+    margin-top: 20px;
 }
 
 section {
@@ -86,6 +91,7 @@ section {
     padding: 0 20px;
     background-image: linear-gradient(to bottom right, lightblue, white);
     margin-left: 0;
+    margin-top: 20px;
 }
 
 main {
@@ -150,6 +156,27 @@ footer ul li {
 /* Psuedo Classes */
 
 img:hover {
-    background-color: red;
+    background-color: rgb(231, 225, 225);;
     opacity: .5;
 }
+
+.buttonclose:hover {
+    background-color: lightblue;
+}
+
+/* Buttons */
+
+.buttonclose {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+}
+
+/* Button Actions */
+
+
+
+/* Media Quearies */
