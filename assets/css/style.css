@@ -29,6 +29,10 @@ nav {
     color: black;
 }
 
+a {
+    color: blue;
+}
+
 header ul {
     list-style-type: none;
     margin-right: 0px;
@@ -164,6 +168,11 @@ img:hover {
     background-color: lightblue;
 }
 
+a:hover {
+    color: purple;
+    font-weight: bold;
+    font-size: 16px;
+}
 /* Buttons */
 
 .buttonclose {
