@@ -54,12 +54,13 @@ article {
     display: flex;
     margin: 0 50px;
     margin-top: 5px;
-    height: 500px;
+    min-height: 500px;
 }
 
 .info-header {
     display: flex;
     justify-content: space-between;
+    align-content: flex-end;
     border-bottom-width: 2px;
     border-bottom-style: solid;
     border-color: black;
@@ -135,6 +136,7 @@ footer {
     display: flex;
     justify-content: center;
     align-content: center;
+    margin-top: 25px;
 }
 
 .footer {
@@ -173,17 +175,15 @@ a:hover {
 }
 /* Buttons */
 
-.buttonclose {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    height: 20px;
-    width: 20px;
-}
+
 
 /* Button Actions */
 
 
 
 /* Media Quearies */
+@media screen and (max-width: 1390px){
+    article {
+        flex-direction: column;
+    }
+}
