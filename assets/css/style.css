@@ -19,6 +19,7 @@ header {
     border-bottom: 2px solid white;
 }
 
+/* Setting Scotty Yackzan Elements */
 h1 {
     display: flex;
     margin-left: 35px;
@@ -27,12 +28,14 @@ h1 {
     letter-spacing: 3px;
 }
 
+/* Setting Navigation Panel Display */
 nav {
     display: flex;
     align-items: center;
     color: black;
 }
 
+/* Setting Links Color */
 a {
     color: blue;
 }
@@ -49,7 +52,7 @@ header ul li {
 }
 
 
-
+/*Setting Text Box Elements */
 article {
     display: flex;
     margin: 0 50px;
@@ -57,6 +60,7 @@ article {
     min-height: 500px;
 }
 
+/* Setting h2, h3 general Elements */
 .info-header {
     display: flex;
     justify-content: space-between;
@@ -69,6 +73,7 @@ article {
     letter-spacing: 3px;
 }
 
+/* Setting Image Container Elements */
 #image-container {
     display: flex;
     justify-self: flex-end;
@@ -78,15 +83,18 @@ article {
     margin-top: 20px;
 }
 
+/* Styling the Lists related to the About Me Text Box */
 #ulstyle {
     list-style-type: square;
     padding-left: 30px;
 }
 
+/* Setting a Specific Margin for the Image */
 #margin {
     margin-top: 20px;
 }
 
+/* Setting Margin against Edge of Web Page */
 section {
     margin-right: 50px;
     margin-left: 50px;
@@ -136,6 +144,7 @@ main {
     width: 100%;
 }
 
+/* Setting Footer Elements */
 footer {
     height: 50px;
     background-image: var(--gradient);
@@ -179,13 +188,6 @@ a:hover {
     font-weight: bold;
     font-size: 16px;
 }
-/* Buttons */
-
-
-
-/* Button Actions */
-
-
 
 /* Media Quearies */
 @media screen and (max-width: 1390px){
