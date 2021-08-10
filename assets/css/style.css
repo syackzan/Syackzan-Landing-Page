@@ -139,6 +139,7 @@ main {
     flex: 3 0 400px;
     background-image: var(--gradient);
     border-radius: 25px;
+    position: relative;
 }
 
 
@@ -149,6 +150,26 @@ main {
     box-shadow: 10px 10px 5px grey;
 }
 
+.mini-text {
+   
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    width: 45%;
+    height: 20%;
+    background-color: lightblue;
+    color: white;
+    border:  2px solid white;
+    border-left-width: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 30px;
+    opacity: 97%;
+    padding-left: 12px;
+    
+}
+
 /* Setting Portfolio Images to size 100% of .linkbox elements */
 .fit {
     height: 100%;
@@ -157,6 +178,7 @@ main {
 
 /* Setting Footer Elements */
 footer {
+    display: flex;
     height: 50px;
     background-image: var(--gradient);
     display: flex;
