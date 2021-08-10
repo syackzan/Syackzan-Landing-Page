@@ -6,6 +6,7 @@ console.log("Today");
     else elem.value = "-";
 } */
 
+//Controls minimizer Button for About Me Sections
 function change () {
 
     var graphic = document.getElementById("ab-button");
@@ -19,7 +20,8 @@ function change () {
     }
 }
 
-function change () {
+//Controls minimizer Butoon for Portfolio Section
+function changeme () {
     var pgraphic = document.getElementById("p-button");
     
     if (pgraphic.value == "-"){
