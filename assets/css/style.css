@@ -41,8 +41,13 @@ a {
 }
 
 header ul {
+    display: flex;
     list-style-type: none;
     margin-right: 0px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
 }
 
 header ul li {
@@ -167,6 +172,13 @@ footer {
 
 footer ul {
     list-style-type: none;
+    display: flex;
+    list-style-type: none;
+    margin-right: 0px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
 }
 
 footer ul li {
