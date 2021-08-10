@@ -78,6 +78,11 @@ article {
     margin-top: 20px;
 }
 
+#ulstyle {
+    list-style-type: square;
+    padding-left: 30px;
+}
+
 #margin {
     margin-top: 20px;
 }
@@ -101,6 +106,7 @@ section {
     background-image: var(--gradient);
     margin-left: 0;
     margin-top: 20px;
+    line-height: 1.5;
 }
 
 main {
