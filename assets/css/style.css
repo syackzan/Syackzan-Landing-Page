@@ -100,12 +100,14 @@ section {
     margin-left: 50px;
 }
 
+/* Class that sets the Main Border for article Section */
 .mainborder {
     border:  2px solid white;
     border-radius: 25px;
     box-shadow: 10px 10px 5px grey;
 }
 
+/* Set Text Element within About Me */
 .text {
     display: flex;
     flex-direction: column;
@@ -117,12 +119,14 @@ section {
     line-height: 1.5;
 }
 
+/* Sets Main Element (Highlighting Portolio) */
 main {
    margin: 25px 50px;
    display: flex;
    flex-wrap: wrap;
 }
 
+/* Sets Box Elements for Portfolio Websites/Programs */
 .linkbox {
     display: flex;
     height: 400px;
@@ -133,12 +137,14 @@ main {
 }
 
 
+/* Sets a Border for Portfolio Boxes */
 .miniborder {
     border:  10px solid white;
     border-radius: 25px;
     box-shadow: 10px 10px 5px grey;
 }
 
+/* Setting Portfolio Images to size 100% of .linkbox elements */
 .fit {
     height: 100%;
     width: 100%;
@@ -193,5 +199,11 @@ a:hover {
 @media screen and (max-width: 1390px){
     article {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 770px){
+    header {
+        height: 80px;
     }
 }
