@@ -69,7 +69,7 @@ article {
 .info-header {
     display: flex;
     justify-content: space-between;
-    align-content: flex-end;
+    align-content: center;
     border-bottom-width: 2px;
     border-bottom-style: solid;
     border-color: black;
@@ -206,6 +206,23 @@ a:hover {
     font-weight: bold;
     font-size: 16px;
 }
+
+/* Buttons */
+#ab-button,
+#p-button {
+    height: 1em;
+    width: 1em;
+    margin-top: -5px;
+    background-color: grey;
+}
+
+#ab-button:hover, 
+#p-button:hover {
+    background-color: lightblue;
+    opacity: 50%;
+    cursor: pointer;
+}
+
 
 /* Media Quearies */
 @media screen and (max-width: 1390px){
