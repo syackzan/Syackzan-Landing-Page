@@ -40,6 +40,10 @@ a {
     color: blue;
 }
 
+h5 {
+    text-align: center;
+}
+
 header ul {
     display: flex;
     list-style-type: none;
@@ -88,6 +92,20 @@ article {
     margin-top: 20px;
 }
 
+.popups {
+    width: 200px;
+    right: 1%;
+    bottom: 50%;
+    background-color: lightblue;
+    border: 2px dashed white;
+    text-align: center;
+    color: black;
+    padding: 4px; 
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px; 
+    border-right: 2px solid white;  
+}
+
 /* Styling the Lists related to the About Me Text Box */
 #ulstyle {
     list-style-type: square;
@@ -126,9 +144,10 @@ section {
 
 /* Sets Main Element (Highlighting Portolio) */
 main {
-   margin: 25px 50px;
+   margin: 25px auto;
    display: flex;
    flex-wrap: wrap;
+   justify-content: center;
 }
 
 /* Sets Box Elements for Portfolio Websites/Programs */
@@ -257,3 +276,4 @@ a:hover {
         height: 80px;
     }
 }
+
