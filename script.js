@@ -60,12 +60,12 @@ parentBox3.onmouseout = function(){
 parentBox4.onmouseover = function(){
     popup4.style.display = "block";
 }
-// parentBox5.onmouseout = function(){
-//     popup5.style.display = "none";
-// }
-// parentBox6.onmouseover = function(){
-//     popup6.style.display = "block";
-// }
-// parentBox6.onmouseout = function(){
-//     popup6.style.display = "none";
-// }
+parentBox4.onmouseout = function(){
+    popup4.style.display = "none";
+}
+parentBox5.onmouseover = function(){
+    popup5.style.display = "block";
+}
+parentBox5.onmouseout = function(){
+    popup5.style.display = "none";
+}
