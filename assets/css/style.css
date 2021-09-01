@@ -287,5 +287,9 @@ a:hover {
         height: 250px;
         flex: 3 0 250px;
     }
+
+    .mini-text {
+        font-size: 14px;
+    }
 }
 
