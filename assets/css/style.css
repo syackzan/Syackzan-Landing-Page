@@ -282,3 +282,10 @@ a:hover {
     }
 }
 
+@media screen and (max-width: 441px){
+    .linkbox{
+        height: 250px;
+        flex: 3 0 250px;
+    }
+}
+
