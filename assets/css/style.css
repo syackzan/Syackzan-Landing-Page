@@ -9,6 +9,7 @@
 
 body {
     background-color: rgb(231, 225, 225);
+    width: 100%
 }
 
 header {
@@ -64,9 +65,11 @@ header ul li {
 /*Setting Text Box Elements */
 article {
     display: flex;
+    flex-wrap: wrap;
     margin: 0 50px;
     margin-top: 5px;
     min-height: 500px;
+    max-width: 100%;
 }
 
 /* Setting h2, h3 general Elements */
@@ -84,10 +87,9 @@ article {
 
 /* Setting Image Container Elements */
 #image-container {
-    display: flex;
-    justify-self: flex-end;
-    height: 100%;
-    width: auto;
+    display: flex; 
+    height: auto;
+    width: 25%;
     margin-left: 5px;
     margin-top: 20px;
 }
@@ -134,6 +136,8 @@ section {
 .text {
     display: flex;
     flex-direction: column;
+    max-width: 65%;
+    height: auto;
     justify-content: center;
     padding: 0 20px;
     background-image: var(--gradient);
@@ -265,15 +269,16 @@ a:hover {
 
 
 /* Media Quearies */
-@media screen and (max-width: 1390px){
-    article {
-        flex-direction: column;
-    }
-}
 
 @media screen and (max-width: 770px){
     header {
         height: 80px;
+    }
+}
+
+@media screen and (max-width: 441px){
+    header{
+        height: 100px;
     }
 }
 
