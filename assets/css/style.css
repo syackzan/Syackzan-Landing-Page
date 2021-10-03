@@ -24,7 +24,7 @@ body {
 /* Styling Nav Bar */
 .navbar {
     padding: 0px 30px;
-    background-color: rgb(114, 103, 103);;
+    background-color: lightgray;
     color: black;
     border-bottom: 3px solid black;
     min-height: 60px;
