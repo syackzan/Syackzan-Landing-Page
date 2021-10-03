@@ -33,4 +33,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 https://syackzan.github.io/Syackzan-Landing-Page/
 
-<img src=".\assets\images\landingpage.png" alt="Landing Page Photo" />
+<img src=".\assets\images\homepageScreenshot.png" alt="Landing Page Photo" />
