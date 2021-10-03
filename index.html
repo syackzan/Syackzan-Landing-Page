@@ -31,11 +31,11 @@
     <section class="header1">
         <h2 id="aboutme">About Me...</h2>
         <div class="buttonbox">
-            <input onclick="change()" type="button" value="-" id="ab-button"></input>
+            <input onclick="change()" type="button" value="-" id="btn1"></input>
         </div>
     </section>
 
-    <div class="jumbotron aboutMe">
+    <div class="jumbotron aboutMe" id="jumbo1" style="display: block">
         <div class="row d-flex flex-wrap">
             <section class="col-md-12 flex-fill meContent mainBorder">
                 <img class="mainBorder img1" src=".\assets\images\images1.png" alt="Scotty's Photo" />
@@ -87,12 +87,11 @@
     <section class="header1" id="portfolio">
         <h2 id="aboutme">Portfolio</h2>
         <div class="buttonbox">
-            <input onclick="change()" type="button" value="-" id="ab-button"></input>
+            <input onclick="change()" type="button" value="-" id="btn2"></input>
         </div>
     </section>
 
-    <div class="jumbotron aboutMe">
-
+    <div class="jumbotron aboutMe" id="jumbo2">
         <section class=" header2">
             <h2 id="aboutme"><u>Full Stack Programs</u></h2>
         </section>
@@ -163,7 +162,7 @@
                         style="margin: 10px; text-decoration: none; width: 100%">
                         <section class="mainBorder formatSection">
                             <img class="formatImage" src=".\assets\images\dayPlanner.png">
-                            <h2 class="formatHeader">Code Generator</h2>
+                            <h2 class="formatHeader">Day Planner</h2>
                             <p class="formatHidden" id="box1">Plan your day with this application. Save and store your
                                 tasks. It's easy to see what hour you're in
                                 by the task bar color!</p>
@@ -177,7 +176,7 @@
                         style="margin: 10px; text-decoration: none; width: 100%">
                         <section class="mainBorder formatSection">
                             <img class="formatImage" src=".\assets\images\codeGenerator.png">
-                            <h2 class="formatHeader">Day Planner</h2>
+                            <h2 class="formatHeader">Code Quiz</h2>
                             <p class="formatHidden" id="box1">Quickly generate a code between 8-129 digits long. Include
                                 Upper & Lowercase letters, Numbers, and
                                 Symbols!</p>
@@ -186,61 +185,61 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <section class="header2">
-        <h2 id="aboutme"><u>Back End Programs</u></h2>
-    </section>
-    <div class="row d-flex flex-wrap">
-        <div class="col-md-3 columnDiv">
-            <div class="order">
-                <a href="https://guarded-retreat-79950.herokuapp.com/"
-                    style="margin: 10px; text-decoration: none; width: 100%">
-                    <section class="mainBorder formatSection">
-                        <img class="formatImage" src=".\assets\images\notetaker.png">
-                        <h2 class="formatHeader">Note Taker</h2>
-                        <p class="formatHidden" id="box1">Keep Track of your To-Dos with this application</p>
-                    </section>
-                </a>
+        <section class="header2">
+            <h2 id="aboutme"><u>Back End Programs</u></h2>
+        </section>
+        <div class="row d-flex flex-wrap">
+            <div class="col-md-3 columnDiv">
+                <div class="order">
+                    <a href="https://guarded-retreat-79950.herokuapp.com/"
+                        style="margin: 10px; text-decoration: none; width: 100%">
+                        <section class="mainBorder formatSection">
+                            <img class="formatImage" src=".\assets\images\notetaker.png">
+                            <h2 class="formatHeader">Note Taker</h2>
+                            <p class="formatHidden" id="box1">Keep Track of your To-Dos with this application</p>
+                        </section>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 columnDiv">
+                <div class="order">
+                    <a href="https://www.youtube.com/watch?v=7UEdc37f40I"
+                        style="margin: 10px; text-decoration: none; width: 100%">
+                        <section class="mainBorder formatSection">
+                            <img class="formatImage" src=".\assets\images\ecommerce.png">
+                            <h2 class="formatHeader">E-commerce Back End</h2>
+                            <p class="formatHidden" id="box1">An application displaying proper Route Functions</p>
+                        </section>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 columnDiv">
+                <div class="order">
+                    <a href="https://www.youtube.com/watch?v=KaOJYunXeBo"
+                        style="margin: 10px; text-decoration: none; width: 100%">
+                        <section class="mainBorder formatSection">
+                            <img class="formatImage" src=".\assets\images\teamprofile.png">
+                            <h2 class="formatHeader">Team Generator</h2>
+                            <p class="formatHidden" id="box1">An application allowing a user to generate their team onto
+                                a profile page</p>
+                        </section>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 columnDiv">
+                <div class="order">
+                    <a href="https://www.youtube.com/watch?v=cC1MKmIArhY"
+                        style="margin: 10px; text-decoration: none; width: 100%">
+                        <section class="mainBorder formatSection">
+                            <img class="formatImage" src=".\assets\images\employeetracker.png">
+                            <h2 class="formatHeader">Employee Tracker</h2>
+                            <p class="formatHidden" id="box1">An application to keep track of your employees, roles, and
+                                departments!</p>
+                        </section>
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="col-md-3 columnDiv">
-            <div class="order">
-                <a href="https://www.youtube.com/watch?v=7UEdc37f40I"
-                    style="margin: 10px; text-decoration: none; width: 100%">
-                    <section class="mainBorder formatSection">
-                        <img class="formatImage" src=".\assets\images\ecommerce.png">
-                        <h2 class="formatHeader">E-commerce Back End</h2>
-                        <p class="formatHidden" id="box1">An application displaying proper Route Functions</p>
-                    </section>
-                </a>
-            </div>
-        </div>
-        <div class="col-md-3 columnDiv">
-            <div class="order">
-                <a href="https://www.youtube.com/watch?v=KaOJYunXeBo"
-                    style="margin: 10px; text-decoration: none; width: 100%">
-                    <section class="mainBorder formatSection">
-                        <img class="formatImage" src=".\assets\images\teamprofile.png">
-                        <h2 class="formatHeader">Team Generator</h2>
-                        <p class="formatHidden" id="box1">An application allowing a user to generate their team onto a profile page</p>
-                    </section>
-                </a>
-            </div>
-        </div>
-        <div class="col-md-3 columnDiv">
-            <div class="order">
-                <a href="https://www.youtube.com/watch?v=cC1MKmIArhY"
-                    style="margin: 10px; text-decoration: none; width: 100%">
-                    <section class="mainBorder formatSection">
-                        <img class="formatImage" src=".\assets\images\employeetracker.png">
-                        <h2 class="formatHeader">Employee Tracker</h2>
-                        <p class="formatHidden" id="box1">An application to keep track of your employees, roles, and departments!</p>
-                    </section>
-                </a>
-            </div>
-        </div>
-    </div>
     </div>
 
     <footer>
@@ -251,7 +250,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
