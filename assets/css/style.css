@@ -3,6 +3,15 @@
     box-sizing: border-box;
 }
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 body {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 93%);
@@ -24,7 +33,7 @@ body {
 /* Styling Nav Bar */
 .navbar {
     padding: 0px 30px;
-    background-color: lightgray;
+    background-color: ghostwhite;
     color: black;
     border-bottom: 3px solid black;
     min-height: 60px;
@@ -40,7 +49,8 @@ h1 {
 /* Styling List inside Navbar */
 .liMargin {
     color: black;
-    margin: 0px 5px
+    margin: 0px 20px;
+    font-size: 16px;
 }
 
 /* Styling About Me and Portfolio Headers */
@@ -59,7 +69,7 @@ h1 {
 
 /* Styling About Me Content */
 .meContent {
-    background-color: lightgray;
+    background-color: ghostwhite;
     color: black;
     height: fit-content;
     padding: 10px;
@@ -81,6 +91,15 @@ h1 {
     justify-content: center;
     margin: 20px;
     padding: 0px 10px;
+}
+
+.headerBox {
+    padding: 5px;
+    border: 1px solid black;
+    background-color: ghostwhite;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px black;
+    width: fit-content;
 }
 
 /* Formatting the Section Element Holding Individual Projects Link */
@@ -135,14 +154,23 @@ h1 {
 
 /* Styling Footer */
 .footer {
+    margin-top: 25px;
     display: flex;
-    justify-content: space-around;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    background-color: rgb(114, 103, 103);
-    border-top: 2px solid black;
-    margin-top: 10px
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    background-color: #f5f5f5;
+    z-index: 900;
+}
+
+.fliMargin{
+    color: black;
+    margin: 0px 20px;
+    font-size: 12px;
 }
 
 /* Make the Full stack applications taller on larger screens */
